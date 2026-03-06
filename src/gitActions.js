@@ -1,7 +1,6 @@
 import { execSync } from "child_process";
 
 export function gitAdd() {
-  // limpa o stage
   execSync("git reset", { stdio: "inherit" });
   execSync("git add .", { stdio: "inherit" });
 }

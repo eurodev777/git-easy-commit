@@ -84,6 +84,7 @@ export async function runCommitFlow() {
       }
     }
   }
+
   // Exemplo de uso:
   gitPush(branch);
 }
